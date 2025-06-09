@@ -101,7 +101,7 @@ nav {
 }
 
 .nav__logo a img {
-  max-width: 75px;
+  max-width: 80px;
 }
 
 .nav__menu__btn {
@@ -199,7 +199,8 @@ nav {
 }
 
 .about__image img {
-  max-width: 500px;
+  max-width: 325px;
+  /*Alterei aqui antes estava 500px*/
   margin-inline: auto;
   border-radius: 1rem;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
@@ -212,6 +213,11 @@ nav {
 .about__btn {
   margin-top: 2rem;
   text-align: center;
+}
+
+/*Alterei aqui*/
+.section__header {
+  font-size: 32px;
 }
 
 .program {
@@ -492,6 +498,10 @@ footer {
 
   .nav__logo a img {
     max-width: 100px;
+  }
+
+  .about__image img {
+    max-width: 500px;
   }
 
   .program__grid {
