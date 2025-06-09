@@ -101,7 +101,7 @@ nav {
 }
 
 .nav__logo a img {
-  max-width: 150px;
+  max-width: 75px;
 }
 
 .nav__menu__btn {
@@ -489,6 +489,11 @@ footer {
 }
 
 @media (width > 540px) {
+
+  .nav__logo a img {
+    max-width: 100px;
+  }
+
   .program__grid {
     grid-template-columns: repeat(2, 1fr);
   }
